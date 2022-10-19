@@ -1,6 +1,7 @@
 FROM alpine AS builder
 RUN apk add -U --no-cache \
             alpine-sdk \
+            bison \
             autoconf \
             automake \
             libtool \
